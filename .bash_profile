@@ -46,9 +46,9 @@ function set_git_branch {
       remote="↑"
     elif [[ ${BASH_REMATCH[1]} == "behind" ]]; then
       remote="↓"
+    else
+      remote=""
     fi
-  else
-    remote=""
   fi
   diverge_pattern="# Your branch and (.*) have diverged"
   if [[ ${git_status} =~ ${diverge_pattern} ]]; then
