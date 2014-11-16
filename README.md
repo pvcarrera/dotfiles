@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-My configuration files
+My configuration files for *nix machines(Mac OS X, Linux)
