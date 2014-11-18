@@ -1,6 +1,6 @@
-"" @pvcarrera vimrc
+" @pvcarrera vimrc
 
-"" Include Vundle
+" Include Vundle
 set nocompatible
 filetype off
 
@@ -23,7 +23,7 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
-"" Whitespace
+" Whitespace
 set tabstop=2 shiftwidth=2 expandtab
 set nowrap
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
