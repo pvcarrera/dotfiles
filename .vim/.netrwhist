@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/pvcarrera/Training/ruby/katas/game_of_life'
-let g:netrw_dirhist_2='/Users/pvcarrera/Training/ruby/katas/game_of_life/spec'
-let g:netrw_dirhist_3='/Users/pvcarrera/Training/ruby/katas/game_of_life/lib'
-let g:netrw_dirhist_4='/Users/pvcarrera/Training/gdcr'
-let g:netrw_dirhist_5='/Users/pvcarrera/Workspace/dotfiles'
