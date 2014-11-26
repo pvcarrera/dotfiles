@@ -3,6 +3,11 @@ dotfiles
 
 My configuration files for *nix machines(Mac OS X, Linux)
 
+## Prerequisites
+
+* [Git](http://git-scm.com/)
+* [GNU stow](http://www.gnu.org/software/stow/)
+
 ## Installation
 
 Clone the repository:
