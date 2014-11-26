@@ -24,6 +24,13 @@ $ stow bash
 $ stow bin
 ```
 
+### Install Vim plugins
+
+```sh
+$ vim
+:BundleInstall!
+```
+
 ## Unlink configuration
 
 Unlink bash configuration example:
