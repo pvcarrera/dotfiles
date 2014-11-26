@@ -19,6 +19,15 @@ $ stow bash
 $ stow bin
 ```
 
+## Unlink configuration
+
+Unlink bash configuration example:
+
+```sh
+$ cd ~/dotfiles
+$ stow bash
+```
+
 ## Authors
 
 - Pablo Vicente
