@@ -22,6 +22,7 @@ Use stow to sym link the conf files you need
 $ cd ~/dotfiles
 $ stow bash
 $ stow bin
+$ stow vim
 ```
 
 ### Install Vim plugins
