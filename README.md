@@ -30,7 +30,7 @@ Unlink bash configuration example:
 
 ```sh
 $ cd ~/dotfiles
-$ stow bash
+$ stow --delete bash
 ```
 
 ## Authors
