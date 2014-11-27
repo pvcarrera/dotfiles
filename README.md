@@ -7,6 +7,7 @@ My configuration files for *nix machines(Mac OS X, Linux)
 
 * [Git](http://git-scm.com/)
 * [GNU stow](http://www.gnu.org/software/stow/)
+* [rbenv](https://github.com/sstephenson/rbenv)
 
 ## Installation
 
