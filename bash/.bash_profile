@@ -83,3 +83,5 @@ alias ls='ls -GFh'
 alias ll='ls -la'
 
 alias gs='git status'export PATH=$HOME/bin:$PATH
+
+eval "$(rbenv init -)"
