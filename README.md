@@ -22,7 +22,7 @@ Use stow to sym link the conf files you need
 ```sh
 $ cd ~/dotfiles
 $ stow bash
-$ stow bin
+$ stow git
 $ stow vim
 ```
 
