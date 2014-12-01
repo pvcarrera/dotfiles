@@ -13,6 +13,7 @@ call vundle#begin()
   Plugin 'vim-scripts/ScrollColors'
   Plugin 'thoughtbot/vim-rspec'
   Plugin 'tpope/vim-rails'
+  Plugin 'rking/ag.vim'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
