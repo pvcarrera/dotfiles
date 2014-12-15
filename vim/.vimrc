@@ -116,3 +116,11 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Configure vim tree
 let g:netrw_liststyle=3
 map <leader>k :Explore<cr>
+
+" Configure cursor
+" Change cursor shape in different modes (for iTerm on OS X)
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" Highligth cursor line
+set cursorline
+hi CursorLine  term=underline  guibg=#555555  cterm=underline ctermbg=0
