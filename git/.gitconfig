@@ -25,3 +25,5 @@
 	ff = only
 [rebase]
 	autosquash = true
+[rerere]
+	enabled = true
