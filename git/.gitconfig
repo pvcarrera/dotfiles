@@ -6,7 +6,7 @@
 	aa = add .
 	co = checkout
 	br = branch
-	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	lg = log --oneline --decorate --all --graph
 [color]
 	ui = true
 [format]
