@@ -15,6 +15,7 @@ call vundle#begin()
   Plugin 'tpope/vim-rails'
   Plugin 'rking/ag.vim'
   Plugin 'bogado/file-line'
+  Plugin 'elixir-lang/vim-elixir'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
