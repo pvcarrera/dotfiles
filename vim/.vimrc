@@ -64,6 +64,8 @@ if &t_Co > 2 || has("gui_running")
   nnoremap <F3> :set hlsearch!<CR>
 endif
 
+" add jbuilder syntax highlighting
+au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
