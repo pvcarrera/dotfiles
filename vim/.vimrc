@@ -16,6 +16,7 @@ call vundle#begin()
   Plugin 'rking/ag.vim'
   Plugin 'bogado/file-line'
   Plugin 'elixir-lang/vim-elixir'
+  Plugin 'ecomba/vim-ruby-refactoring'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
@@ -113,6 +114,17 @@ map <Leader>t :w<CR>:call RunCurrentSpecFile()<CR>
 map <Leader>s :w<CR>:call RunNearestSpec()<CR>
 map <Leader>l :w<CR>:call RunLastSpec()<CR>
 map <Leader>a :w<CR>:call RunAllSpecs()<CR>
+
+" Refactoring mappings
+:nnoremap <leader>rap  :RAddParameter<cr>
+:nnoremap <leader>rcpc :RConvertPostConditional<cr>
+:nnoremap <leader>rel  :RExtractLet<cr>
+:vnoremap <leader>rec  :RExtractConstant<cr>
+:vnoremap <leader>relv :RExtractLocalVariable<cr>
+:nnoremap <leader>rit  :RInlineTemp<cr>
+:vnoremap <leader>rrlv :RRenameLocalVariable<cr>
+:vnoremap <leader>rriv :RRenameInstanceVariable<cr>
+:vnoremap <leader>rem  :RExtractMethod<cr>
 
 " Remove trailing waite spaces
 autocmd BufWritePre * :%s/\s\+$//e
