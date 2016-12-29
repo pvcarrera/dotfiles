@@ -142,6 +142,11 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 set cursorline
 hi CursorLine  term=underline  guibg=#555555  cterm=underline ctermbg=0
 
+" Show invisibles
+:nmap <leader>l :set list!<CR>
+" Invisibles format
+set listchars=tab:▸\ ,eol:¬
+
 " Add spellchek
 " Move to next misspelled word s] Move backwards ]s
 " Show suggestions z=
