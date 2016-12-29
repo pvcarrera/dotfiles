@@ -17,6 +17,7 @@ call vundle#begin()
   Plugin 'bogado/file-line'
   Plugin 'elixir-lang/vim-elixir'
   Plugin 'ecomba/vim-ruby-refactoring'
+  Plugin 'geoffharcourt/vim-matchit'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
