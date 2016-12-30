@@ -29,7 +29,7 @@ noremap <Left> <nop>
 noremap <Right> <nop>
 
 " Whitespace
-set tabstop=2 shiftwidth=2 expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 set nowrap
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 
