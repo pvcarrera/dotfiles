@@ -112,7 +112,6 @@ color codeschool
 " RSpec.vim mappings
 :let mapleader = ","
 map <Leader>t :w<CR>:call RunCurrentSpecFile()<CR>
-map <Leader>s :w<CR>:call RunNearestSpec()<CR>
 map <Leader>l :w<CR>:call RunLastSpec()<CR>
 map <Leader>a :w<CR>:call RunAllSpecs()<CR>
 
@@ -150,4 +149,5 @@ set listchars=tab:▸\ ,eol:¬
 " Add spellchek
 " Move to next misspelled word s] Move backwards ]s
 " Show suggestions z=
-set spell spelllang=en_gb
+nmap <silent> <leader>s :set spell!<CR>
+set spelllang=en_gb
