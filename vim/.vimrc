@@ -71,6 +71,8 @@ au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
+  " Source the vimrc file after saving it
+  autocmd bufwritepost .vimrc source $MYVIMRC
 
   " Put these in an autocmd group, so that we can delete them easily.
   augroup vimrcEx
