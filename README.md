@@ -11,9 +11,10 @@ My configuration files for *nix machines(Mac OS X, Linux)
 
 ## Installation
 
-Clone the repository:
+Clone the repository in your home directory:
 
 ```sh
+$ cd
 $ git clone --recursive https://github.com/pvcarrera/dotfiles.git
 ```
 
