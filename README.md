@@ -6,6 +6,7 @@ My configuration files for *nix machines(Mac OS X, Linux)
 ## Prerequisites
 
 * [Git](http://git-scm.com/)
+* [Hub](https://github.com/github/hub)
 * [GNU stow](http://www.gnu.org/software/stow/)
 * [rbenv](https://github.com/sstephenson/rbenv)
 

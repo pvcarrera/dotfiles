@@ -85,4 +85,6 @@ alias ll='ls -la'
 
 alias gs='git status'export PATH=$HOME/bin:$PATH
 
+#Hub aliasing
+eval "$(hub alias -s)"
 eval "$(rbenv init -)"
