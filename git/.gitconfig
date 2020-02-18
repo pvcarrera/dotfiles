@@ -2,11 +2,12 @@
 	email = vicapa99@gmail.com
 	name = Pablo Vicente
 [alias]
-	st = status
-	aa = add .
-	co = checkout
-	br = branch
-	lg = log --oneline --decorate --all --graph
+  st = status
+  aa = add .
+  co = checkout
+  br = branch
+  lg = log --oneline --decorate --all --graph
+  gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs git branch -D"
 [color]
 	ui = true
 [format]
