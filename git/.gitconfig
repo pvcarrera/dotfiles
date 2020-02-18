@@ -27,3 +27,5 @@
 	autosquash = true
 [rerere]
 	enabled = true
+[web]
+	browser = firefox
