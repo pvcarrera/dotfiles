@@ -87,4 +87,7 @@ alias gs='git status'export PATH=$HOME/bin:$PATH
 
 #Hub aliasing
 eval "$(hub alias -s)"
+# Wrap classic command with enhancements
+alias cat='bat'
+
 eval "$(rbenv init -)"
