@@ -9,6 +9,8 @@ My configuration files for *nix machines(Mac OS X, Linux)
 * [Hub](https://github.com/github/hub)
 * [GNU stow](http://www.gnu.org/software/stow/)
 * [rbenv](https://github.com/sstephenson/rbenv)
+* [bat](https://github.com/sharkdp/bat)
+* [exa](https://the.exa.website)
 
 ## Installation
 
