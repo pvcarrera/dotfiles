@@ -83,7 +83,8 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='exa'
 alias ll='exa -la'
 
-alias gs='git status'export PATH=$HOME/bin:$PATH
+alias gs='git status'
+export PATH=$HOME/bin:$PATH
 
 #Hub aliasing
 eval "$(hub alias -s)"
