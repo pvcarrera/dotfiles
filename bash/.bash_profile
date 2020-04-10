@@ -80,8 +80,8 @@ export PROMPT_COMMAND=setup_prompt
 # export PS1="${GREEN}\w${COLOUR_NONE}${BRANCH}> "  # Primary prompt with only a path
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'
-alias ll='ls -la'
+alias ls='exa'
+alias ll='exa -la'
 
 alias gs='git status'export PATH=$HOME/bin:$PATH
 
